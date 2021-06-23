@@ -3,10 +3,10 @@ package com.ghiles;
 public class Application {
     public static void main(String[] args) {
         Application app = new Application();
-        app.sayHello("World");
+        System.out.println(app.sayHello("World"));
     }
 
-    public void sayHello(String input) {
-        System.out.println("Hello " + input + " !!!");
+    public String sayHello(String input) {
+        return "Hello " + input + " !!!";
 	}
 }
